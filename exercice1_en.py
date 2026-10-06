@@ -12,3 +12,7 @@ Expected example:
 # TODO: create the variables name, age, height
 
 # TODO: print the sentence with an f-string
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+height = float(input("How tall are you in metres? "))
+print(f"My name is {name}, I am {age} years old and I am {height}m tall.")
